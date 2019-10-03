@@ -258,7 +258,7 @@ success
 ```
 Vidage table arp :`ip n flush all`
 
-![](https://i.imgur.com/ms6VkKF.png)
+![](https://i.imgur.com/mVhai4H.png)
 
 On constate bien les diff requetes de connexions : SYN SYN/ACK ACK
 L'ip 192.168.76.1 (notre carte reseau) demande au localhost de se connecter (SYN) puis Localhost renvoit une requete comme quoi l'ip 192.168.76.1 peut se connecter (SYN/ACK) pour qu'enfin l'ip 192.168.76.1 renvoit une confirmation de reception (ACK)
